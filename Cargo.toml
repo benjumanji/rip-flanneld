@@ -1,0 +1,12 @@
+[package]
+name = "rip-flanneld"
+version = "0.1.0"
+authors = ["Ben Edwards <edwards.benj@gmail.com>"]
+
+[[bin]]
+name="rip-flanneld"
+path="src/main.rs"
+
+[dependencies]
+byteorder="0.4"
+etcd = "0.2"
